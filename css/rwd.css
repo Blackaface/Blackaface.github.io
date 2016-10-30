@@ -17,7 +17,7 @@
 	.container{
 		width: 100vw;
 		margin: 0 auto;
-		text-align: center;
+/*		text-align: center;*/
 	}
 	.col-4{
 	width: 32%;
@@ -33,18 +33,51 @@
 		position: relative;
 	}
 
-	
-
-	 #logo, .container .logo{
-	 	width: 150px;
-	 	height: 30px;
-	 }
-	 	.desktop{
-		display:none;
+ 	.desktop{
+	display:none;
 	}
+
+	#logo h3{
+		padding-top: 16px;
+	}
+
+	.words h2{
+		padding-top: 60px;
+	}
+
+
+	.words p{
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	.words hr{
+		margin-bottom: 32px;
+	}
+	.logo h3{
+		padding-top: 20px;
+		padding-bottom: 8px;
+		margin: 0;
+	}
+	.copyright p{
+		padding-top: 8px;
+		padding-bottom: 20px;
+	}
+
+	.load{
+	    margin-top: 20px;
+	    margin-bottom: 52px;
+	}
+
 }
 
 @media(min-width: 1200px){
+	.container{
+		width: 1200px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
 	#menu-trigger{
 		display: none;
 	}
@@ -61,7 +94,7 @@
 	padding-top: 40px;
 	}
 
-	#logo{
+	#logo h3{
 		padding-top: 25px;
 		margin: 0;
 	}
@@ -94,11 +127,6 @@
 	}
 	
 
-	.social_media a {
-		text-align: center;
-		text-decoration: none;
-		padding: 25px;
-	}
 
 	.social_media ul {
 	display: inline-block;
@@ -110,25 +138,23 @@
 	.social_media li{
 		display: inline;
 		margin: 0 4px;
+		text-align: center;
 	}
 
 	.social_media a {
 		text-align: center;
 		text-decoration: none;
-		padding: 25px;
-		font-size: 0.2rem;
+		/*font-size: 0.625rem;*/
 		color: #000;
-		font-size: 700;
+/*		font-size: 20px;*/
 	}
 
 	.container .social_media{
 		display: inline;
-		width: 105px;
-		margin: 0 auto;
 	}
 
 	.social_media p{
-		font-size: 5px;
+		font-size: 0.625rem;
 		color: #000;
 		margin: 0;
 		padding-left: 0;
@@ -138,6 +164,40 @@
 		width: 370px;
 		height: 230px;
 		margin: 0 auto;
+	}
+
+	#header #logo{
+		margin-left: 15px;
+	}
+	.desktop {
+		margin-right: 15px;
+	}
+
+	.logo h3{
+		padding-top: 50px;
+		padding-bottom: 20px;
+		margin: 0;
+	}
+	.copyright p{
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+
+	.filter ul{
+		width: 1200px;
+	}
+
+	.load{
+	    margin-top: 50px;
+	    margin-bottom: 135px;
+	}
+
+	.words h2{
+		padding-top: 150px;
+	}
+
+	.words hr{
+		margin-bottom: 80px;
 	}
 
 }
